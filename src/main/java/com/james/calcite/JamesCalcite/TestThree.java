@@ -22,8 +22,6 @@ import org.apache.calcite.tools.FrameworkConfig;
 import org.apache.calcite.tools.Frameworks;
 import org.apache.calcite.tools.Planner;
 
-import com.james.common.aux.RelVisitTestOne;
-
 public class TestThree {
 
 	public static void main(String[] args) {
@@ -207,8 +205,8 @@ public class TestThree {
 			//builder.addRuleInstance(FilterJoinRule.JOIN);
 			//builder.addRuleCollection(Programs.CALC_RULES);
 			//builder.addRuleCollection(Programs.RULE_SET);
-			builder.addRuleInstance(ReduceExpressionsRule.PROJECT_INSTANCE);
-			builder.addRuleInstance(ReduceExpressionsRule.FILTER_INSTANCE);
+//			builder.addRuleInstance(ReduceExpressionsRule.PROJECT_INSTANCE);
+//			builder.addRuleInstance(ReduceExpressionsRule.FILTER_INSTANCE);
 			//builder.addRuleInstance(FilterProjectTransposeRule.INSTANCE);
 			HepPlanner hepPlanner = new HepPlanner(builder.build());
 			root.rel.getCluster().getPlanner().setExecutor(RexUtil.EXECUTOR);
@@ -222,8 +220,8 @@ public class TestThree {
 			/****************************************************************/
 
 
-			RelVisitTestOne testOne = new RelVisitTestOne();
-			testOne.go(root.rel);
+//			RelVisitTestOne testOne = new RelVisitTestOne();
+//			testOne.go(root.rel);
 
 
 

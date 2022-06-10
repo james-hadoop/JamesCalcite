@@ -20,7 +20,7 @@ import org.apache.calcite.tools.Planner;
 import org.apache.calcite.tools.RelConversionException;
 import org.apache.calcite.tools.ValidationException;
 
-import com.james.common.util.JamesUtil;
+import com.james.calcite.utils.JamesUtil;
 
 public class SqlToRelConverterDemo {
     public static class TestSchema {

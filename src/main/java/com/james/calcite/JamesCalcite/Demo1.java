@@ -3,6 +3,7 @@ package com.james.calcite.JamesCalcite;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.james.calcite.utils.JamesUtil;
 import org.apache.calcite.jdbc.JavaTypeFactoryImpl;
 import org.apache.calcite.plan.RelOptCluster;
 import org.apache.calcite.plan.RelOptTable;
@@ -21,9 +22,7 @@ import org.apache.calcite.sql.parser.SqlParser;
 import org.apache.calcite.sql.parser.SqlParserPos;
 import org.apache.calcite.sql2rel.SqlToRelConverter;
 import org.apache.calcite.tools.Frameworks;
-import static org.apache.calcite.sql.SqlDialect.CALCITE;
 
-import com.james.common.util.JamesUtil;
 
 public class Demo1 {
     public static void main(String[] args) throws SqlParseException {
@@ -55,10 +54,11 @@ public class Demo1 {
         SqlParser parser = SqlParser.create(sql);
 
         Metadata meta = parser.getMetadata();
-//        for (String s : meta.getTokens()) {
-//            System.out.println(s);
-//        }
+        for (String s : meta.getTokens()) {
+            System.out.println(s);
+        }
 
+        JamesUtil.printDivider();
         SqlNode node = parser.parseQuery();
         System.out.println("node: "+node.toString());
         SqlParserPos pos = node.getParserPosition();
@@ -86,9 +86,9 @@ public class Demo1 {
 //        SqlToRelConverter sqlToRelConverter =
 //            getSqlToRelConverter(validator, catalogReader, config);
 
-        final SqlToRelConverter.Config config = SqlToRelConverter.configBuilder()
-                .withConfig(SqlToRelConverter.Config.DEFAULT).withTrimUnusedFields(false).withConvertTableAccess(false)
-                .build();
+//        final SqlToRelConverter.Config config = SqlToRelConverter.configBuilder()
+//                .withConfig(SqlToRelConverter.Config).withTrimUnusedFields(false).withConvertTableAccess(false)
+//                .build();
         
 //        final RelDataTypeFactory.Builder b =
 //                context.getCluster().getTypeFactory().builder();

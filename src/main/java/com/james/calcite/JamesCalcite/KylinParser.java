@@ -21,7 +21,7 @@ import org.apache.calcite.tools.Planner;
 import org.apache.calcite.tools.RelConversionException;
 
 import com.james.calcite.JamesCalcite.SqlToRelConverterDemo.TestSchema;
-import com.james.common.util.JamesUtil;
+import com.james.calcite.utils.JamesUtil;
 
 public class KylinParser {
     public static void main(String[] args) throws SqlParseException, RelConversionException {

@@ -1,56 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7589bc59-46eb-4907-9885-884bc737ce02" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="7589bc59-46eb-4907-9885-884bc737ce02" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_yahoo_datasketches_memory_0_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_yahoo_datasketches_memory_0_9_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_yahoo_datasketches_sketches_core_0_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_yahoo_datasketches_sketches_core_0_9_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_hydromatic_aggdesigner_algorithm_6_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_hydromatic_aggdesigner_algorithm_6_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_calcite_calcite_avatica_1_6_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_calcite_calcite_avatica_1_6_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamesCalcite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JamesCalcite.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/calcite/JamesCalcite/CalciteParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/calcite/JamesCalcite/CalciteParserDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/james/calcite/JamesCalcite/CalciteParserDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/calcite/JamesCalcite/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/james/calcite/JamesCalcite/Demo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/calcite/JamesCalcite/KylinParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/james/calcite/JamesCalcite/KylinParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/calcite/JamesCalcite/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/james/calcite/JamesCalcite/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/calcite/JamesCalcite/SqlToRelConverterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/james/calcite/JamesCalcite/SqlToRelConverterDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/calcite/JamesCalcite/TestFive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/calcite/JamesCalcite/TestOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/james/calcite/JamesCalcite/TestOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/calcite/JamesCalcite/TestThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/james/calcite/JamesCalcite/TestThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/calcite/JamesCalcite/testN.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/common/._aux" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/common/aux/DogSqlValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/common/aux/DogVolcanoPlanner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/common/aux/RelVisitTestOne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/common/aux/converter/DogFilterConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/common/aux/converter/DogProjectConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/common/aux/converter/DogTableScanConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/common/aux/cost/DogBuiltInMetadata.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/common/aux/cost/DogCostAccumulator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/common/aux/cost/DogCumulativeCost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/common/aux/cost/DogRelMetaDataProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/common/aux/cost/DogRelMetadataQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/common/aux/rel/DogFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/common/aux/rel/DogProject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/common/aux/rel/DogRel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/common/aux/rel/DogTableScan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/common/util/JamesUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/common/util/RelNodeUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/common/util/TestTimeConsumption.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/common/util/UserBehaviorParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/maven/shade/Data.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/maven/shade/Device.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/maven/shade/GsonTester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/maven/shade/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/maven/shade/VoiceCloudData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/netty/client/TimeClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/netty/server/TimeServer.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/james/calcite/JamesCalcite/CalciteParserDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="64" column="45" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/james/calcite/JamesCalcite/CalciteParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1292">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/james/calcite/JamesCalcite/SqlToRelConverterDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="34" column="71" selection-start-line="34" selection-start-column="71" selection-end-line="34" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>rel</find>
       <find>validate</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -63,20 +93,18 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
-        <option name="mavenHome" value="$USER_HOME$/install/maven-3.6.1" />
+        <option name="localRepository" value="$USER_HOME$/Documents/_AllDocMap/06_Software/maven_repo" />
+        <option name="mavenHome" value="$USER_HOME$/Documents/install/apache-maven-3.8.1" />
         <option name="outputLevel" value="WARN" />
-        <option name="userSettingsFile" value="$USER_HOME$/install/maven-3.6.1/conf/settings.xml" />
+        <option name="userSettingsFile" value="$USER_HOME$/Documents/install/apache-maven-3.8.1/conf/settings.xml.aliyun" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="#JAVA_HOME" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="47" />
@@ -85,6 +113,9 @@
     <option name="height" value="980" />
   </component>
   <component name="ProjectId" id="1XZ7Ff719kpXH7AdV7We8V6k3IA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -223,31 +254,35 @@
       <pane id="CatdeaLogs" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577680176762" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.james.calcite.kylin" />
+      <recent name="com.james.calcite.JamesCalcite" />
+      <recent name="com.james.calcite.utils" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.SqlToRelConverterDemo">
+  <component name="RunManager" selected="Application.JamesCalciteDemo">
     <configuration name="CalciteParserDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.james.calcite.JamesCalcite.CalciteParserDemo" />
       <module name="JamesCalcite" />
@@ -261,6 +296,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.james.calcite.JamesCalcite.Demo1" />
+      <module name="JamesCalcite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.james.calcite.JamesCalcite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="JamesCalciteDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.james.calcite.driver.JamesCalciteDemo" />
+      <module name="JamesCalcite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.james.calcite.driver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.james.calcite.JamesCalcite.MyTest" />
+      <module name="JamesCalcite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.james.calcite.JamesCalcite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration name="SqlToRelConverterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.james.calcite.JamesCalcite.SqlToRelConverterDemo" />
       <module name="JamesCalcite" />
@@ -272,45 +349,7 @@
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.james.calcite.JamesCalcite.TestOne" />
-      <module name="JamesCalcite" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.james.calcite.JamesCalcite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.james.calcite.JamesCalcite.TestThree" />
-      <module name="JamesCalcite" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.james.calcite.JamesCalcite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.james.calcite.JamesCalcite.TestTwo" />
-      <module name="JamesCalcite" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.james.calcite.JamesCalcite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
       </method>
     </configuration>
     <configuration name="JamesCalcite-MAVEN" type="MavenRunConfiguration" factoryName="Maven">
@@ -342,19 +381,23 @@
     </configuration>
     <list>
       <item itemvalue="Application.CalciteParserDemo" />
-      <item itemvalue="Application.TestOne" />
-      <item itemvalue="Application.TestThree" />
-      <item itemvalue="Application.TestTwo" />
       <item itemvalue="Maven.JamesCalcite-MAVEN" />
+      <item itemvalue="Application.MyTest" />
+      <item itemvalue="Application.Demo1" />
       <item itemvalue="Application.SqlToRelConverterDemo" />
+      <item itemvalue="Application.JamesCalciteDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JamesCalciteDemo" />
         <item itemvalue="Application.SqlToRelConverterDemo" />
+        <item itemvalue="Application.Demo1" />
         <item itemvalue="Application.CalciteParserDemo" />
+        <item itemvalue="Application.MyTest" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -423,17 +466,52 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/james/calcite/JamesCalcite/CalciteParserDemo.java</url>
-          <line>64</line>
-          <properties />
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/james/calcite/JamesCalcite/MyTest.java</url>
+          <line>123</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/james/calcite/JamesCalcite/SqlToRelConverterDemo.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/james/calcite/driver/JamesCalciteDemo.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/james/calcite/driver/JamesCalciteDemo.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/james/calcite/driver/JamesCalciteDemo.java</url>
+          <line>122</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="sqlSelect.getWhere()" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/james/calcite/JamesCalcite/T_A.java">

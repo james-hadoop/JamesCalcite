@@ -52,8 +52,8 @@ public class TestOne {
 
 
             //sqlNode = planner.parse("select \"a\".\"s\", count(\"a\".\"s\") from \"T\".\"rdf\" \"a\" group by \"a\".\"s\"");
-//            sqlNode = planner.parse("select distinct cast(\"a\".\"s\" as INT) from \"T\".\"rdf\" \"a\"");
-            sqlNode = planner.parse(sql91);
+            sqlNode = planner.parse("select distinct cast(\"a\".\"s\" as INT) from \"T\".\"rdf\" \"a\"");
+//            sqlNode = planner.parse(sql91);
             
             planner.validate(sqlNode);
             relRoot = planner.rel(sqlNode);
