@@ -37,3 +37,5 @@ build/
 src/main/resources/application-test.properties
 
 script/deploy.sh
+
+src/main/java/com/james/calcite/kylin
